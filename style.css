@@ -6,32 +6,30 @@
 }
 
 body {
-    height: 97vh;
     background-image: url(imagens/fundo-madeira.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-body >section {
+body > section {
     width: 100%;
     height: 100%;
 }
 
-section {
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section#celular {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50px, -50px);
+    transform: translate(-50%, -50%);
 }
-
-
 
 iframe {
     position: absolute;
-    top: 50px;
-    left: 5;
-    width: 270px;
-    height: 500px;
 }
 
 article.link {  
