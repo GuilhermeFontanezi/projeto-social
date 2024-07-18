@@ -12,10 +12,26 @@ body {
     background-repeat: no-repeat;
 }
 
-article#tela {
+body >section {
+    width: 100%;
+    height: 100%;
+}
+
+section {
     position: absolute;
-    left: 260px;
-    top: 80px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50px, -50px);
+}
+
+
+
+iframe {
+    position: absolute;
+    top: 50px;
+    left: 5;
+    width: 270px;
+    height: 500px;
 }
 
 article.link {  
