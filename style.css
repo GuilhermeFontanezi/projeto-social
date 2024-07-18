@@ -23,13 +23,22 @@ main {
 
 section#celular {
     position: absolute;
+    background: url(imagens/frame-iphone.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 311px;
+    height: 627px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
-iframe {
+iframe#tela {
     position: absolute;
+    top: 80px;
+    left: 20px;
+    height: 595px;
+    width: 270px;
 }
 
 article.link {  
