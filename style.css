@@ -27,7 +27,8 @@ section#celular {
     background-size: cover;
     background-attachment: fixed;
     width: 311px;
-    height: 627px;
+    min-height: 627px;
+    max-height: 627px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -37,7 +38,7 @@ iframe#tela {
     position: absolute;
     top: 80px;
     left: 20px;
-    height: 595px;
+    height: 473px;
     width: 270px;
 }
 
@@ -45,15 +46,17 @@ article.link {
     text-align: right;
 }
 
-
 img.circulo {
     display: inline-block;
-    padding : 10px;
+    margin: 10px;
     width: 50px;
     border-radius: 50%;
+    transition-duration: 0.3s;
+    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.445));
+
 }
 
-a {
-    filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0));
+img.circulo:hover {
+    transform: translate(-5px, -5px);
+    filter: drop-shadow(-0.5px -0.5px 2px white);
 }
-
