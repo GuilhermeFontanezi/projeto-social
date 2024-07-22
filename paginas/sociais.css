@@ -23,6 +23,7 @@ a {
     font-weight: bolder;
     text-decoration: none;
     text-align: center;
+    border-radius: 5px;
 }
 
 a:hover {
